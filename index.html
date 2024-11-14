@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F.A.A.L. I - Termoformadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Logo del Proyecto" class="logo"> <!-- Añadir el logo del proyecto -->
+        <h1>EXPO TECNICA 2024</h1>
+        <p>6to "A" Electromecánica</p>
+    </header>
+
+    <main>
+        <section class="description">
+            <h2>DESCRIPCIÓN:</h2>
+            <p>La termoformadora al vacío F.A.A.L 1, desarrollada para las Olimpiadas de Electromecánica, es una máquina educativa con capacidad para aplicaciones industriales. Su funcionamiento consiste en calentar una lámina de plástico y aplicar vacío para moldearla en una matriz. Incluye modos de operación manual y automático, una estructura robusta y componentes como resistencias de alta potencia, pistones neumáticos y un sistema de refrigeración, asegurando un proceso eficiente y controlado.</p>
+        </section>
+
+        <section class="content">
+            <div class="machine-image">
+                <img src="Maquina.png" alt="Imagen de la termoformadora">
+            </div>
+            
+            <div class="parts">
+                <h3>PARTES:</h3>
+                <ul>
+                    <li>Porta-lámina: Estructura que sostiene la lámina de plástico para ser calentada y moldeada. Incluye ángulos, seguros de presión regulables y correderas telescópicas.</li>
+                    <li>Receptáculo de resistencias: Contiene las resistencias para calentar el plástico. Está aislado con fibra de vidrio y cubierto con chapa aluminizada para mantener el calor.</li>
+                    <li>Receptáculo de molde: Estructura donde se coloca el molde o matriz. Incluye una plancha y malla metálicas y un sistema de guías para asegurar la correcta posición del molde.</li>
+                    <li>Sistema de pistones neumáticos: Incluye varios pistones de doble efecto para manejar el desplazamiento horizontal y vertical de la lámina, la resistencia y el molde.</li>
+                    <li>Bomba de vacío: Crea el vacío necesario para que el plástico se adhiera a la forma del molde.</li>
+                    <li>Sistema de refrigeración: Mantiene la temperatura adecuada durante el proceso de termoformado.</li>
+                    <li>Sistema de control: Utiliza un Arduino y sensores para gestionar el proceso de termoformado en modo automático, incluyendo la activación de resistencias y el monitoreo de la temperatura.</li>
+                    <li>Panel de mando: Permite operar la máquina en modo manual, incluyendo botones y selectores para controlar los pistones, la bomba de vacío y las resistencias.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="links">
+            <h3>Enlaces adicionales:</h3>
+            <ul>
+                <li><a href="Olimpiadas Electromecanica_EPET_N1_unesco F.A.AL1.pdf" target="_blank">Informe en PDF</a></li>
+                <li><a href="https://autode.sk/4fNVD5y" target="_blank">Vista 360° de la máquina</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>OLIMPIADAS DE ELECTROMECANICA INSTANCIA NACIONAL 2024</p>
+        <p>+ info en: <a href="https://instagram.com/ProyectoFaal1" target="_blank">@ProyectoFaal1</a></p>
+    </footer>
+</body>
+</html>
